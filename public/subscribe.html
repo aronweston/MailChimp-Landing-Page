@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+   <title>Amalfi Subscribe</title>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
+   <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16">
+   <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#0668e5">
+   <!--Icons-->
+   <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+   <!--Styles-->
+   <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="landing is-preload">
+   <!-- Page Wrapper -->
+   <div id="page-wrapper">
+      <section id="subscribe" class="wrapper style5">
+         <div class="align-center">
+            <img src="assets/images/logo-white.svg" class="logo main" alt="Amalfi Tiles Logo" height="300px">
+         </div>
+         <div id="subscribe" class="inner align-center">
+            <div class="inner">
+               <h2>Subscribe</h2>
+            </div>
+
+            <form id="subscribe" method="POST" action="/subscribe">
+               <div id="input" class="row gtr-uniform aln-center">
+                  <!--Name-->
+                  <div id="input" class="col-12">
+                     <input type="text" name="fullName" id="fullName" data-validate="validate(fullName)"
+                        placeholder="First name" size="30" maxlength="70" required />
+                  </div>
+                  <!--Email-->
+                  <div id="input" class="col-12 padBot">
+                     <input type="text" name="email" id="email" data-validate="validate(email)" placeholder="Email"
+                        required />
+                  </div>
+               </div>
+               <!--Submit-->
+               <div class="col-12 fit">
+                  <ul class="actions special">
+                     <li><input onClick="fbq('track', 'Subscribe', { value: 10.00, currency: 'AUD'})" id="submit"
+                           type="submit" value="Subscribe" class="primary" /></li>
+                  </ul>
+               </div>
+         </div>
+         </form>
+   </div>
+   </div>
+   </section>
+   <!-- Scripts -->
+   <!-- Scripts -->
+   <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/jquery.scrollex.min.js"></script>
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/jquery.scrolly.min.js"></script>
+   <script src="assets/js/browser.min.js"></script>
+   <script src="assets/js/breakpoints.min.js"></script>
+   <script src="assets/js/main.js"></script>
+   <script src="assets/js/jquery.formalist.min.js"></script>
+</body>
+
+</html>
