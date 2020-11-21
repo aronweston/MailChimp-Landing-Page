@@ -1,12 +1,13 @@
 var firebaseConfig = {
-    apiKey: "APIKEY",
-    authDomain: "amalfi-tiles.firebaseapp.com",
-    databaseURL: "https://amalfi-tiles.firebaseio.com",
-    projectId: "amalfi-tiles",
-    storageBucket: "amalfi-tiles.appspot.com",
-    messagingSenderId: "ID",
-    appId: "ID"
+apiKey: "AIzaSyBLyj0zL777y6mp3TSbYI_IUagNeUNcUPs",
+authDomain: "amalfi-tiles-b9ac9.firebaseapp.com",
+databaseURL: "https://amalfi-tiles-b9ac9.firebaseio.com",
+projectId: "amalfi-tiles-b9ac9",
+storageBucket: "amalfi-tiles-b9ac9.appspot.com",
+messagingSenderId: "390131248044",
+appId: "1:390131248044:web:9cc1ebfb1815c30551e809"
 };
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 var contactRef = firebase.database().ref('page_1');
